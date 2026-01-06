@@ -1,0 +1,911 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	width:100%;
+	height:670px;
+	float:left;
+	background-image:url('images/Dji img 2.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.menu{
+	width:100%;
+	height:70px;
+	float:left;
+	background-color:black;
+/*	background-color:white;*/
+	position:fixed;
+	top:0px;
+}
+
+
+.logo_area{
+	width:10%;
+	height:70px;
+	float:left;
+	text-align:center;
+}
+
+.logo_area img{
+	margin-top:20px;
+	margin-left:50px;
+}
+
+.menu_element{
+	width:70%;
+	height:70px;
+	float:left;
+}
+
+.menu_element ul{
+	list-style-type:none;
+}
+
+.menu_element ul li{
+	display:inline-block;
+	margin-top:23px;
+	margin-left:15px;
+	font-size:18px;
+	color:white;
+}
+
+.menu_icon{
+	width:20%;
+	height:70px;
+	float:left;
+}
+
+.menu_icon ul{
+	list-style-type:none;
+	display:inline-block;
+	font-size:20px;
+	margin-left:20px;
+	margin-top:17px;
+}
+
+.menu_icon ul ion-icon{
+	color:white;
+}
+
+.menu_icon ul i{
+	margin-left:20px;
+	color:white;
+}
+
+.menu_icon ul button{
+	width:80px;
+	height:35px;
+	margin-left:20px;
+	border-radius:20px;
+	border:none;
+	font-size:18px;
+	background-color:blue;
+	color:white;
+}
+
+.name1{
+	width:30%;
+	height:300px;
+	float:left;
+	margin-left:35%;
+	background-color:transparent;
+	text-align:center;
+	color:white;
+}
+
+.name1 p{
+	font-size:20px;
+	margin-top:100px;
+}
+
+.name1 h1{
+	font-size:45px;
+
+}
+
+.name1 h3{
+	font-size:20px;
+	color:white;
+}
+
+.name1 button{
+	width:130px;
+	height:35px;
+	margin-top:10px;
+	border-radius:50px;
+	border:1px solid white;
+	font-size:20px;
+	background-color:transparent;
+	color:white;
+}
+
+@media(max-width:660px){
+	.header{
+		background-size:400% 100%;
+		background-position:-725px 0px;
+	}
+	.menu_element{
+		width:90%;
+		overflow:hidden;
+	}
+	.logo_area img{
+		margin-left:25px;
+	}
+
+	.menu_icon{
+		display:none;
+	}
+
+	.menu_element ul{
+		margin-left:40px;
+	}
+	.name1{
+		width:100%;
+		margin-left:0%;
+	}
+}
+
+/*section2---------------------------------------------------------------------------------------------*/
+
+
+.section2{
+	width:100%;
+	height:600px;
+	float:left;
+	margin-top:20px;
+}
+
+.section2_main_div{
+	width:100%;
+	height:100%;
+	float:left;
+	background-image:url('images/Dji img 3.jpg');
+	background-size:100% 100%;
+	text-align:center;
+	color:white;
+}
+
+.section2_main_div h1{
+	font-size:40px;
+	margin-top:30px;
+}
+
+.section2_main_div h3{
+	font-size:25px;
+	margin-top:20px;
+}
+
+.section2_main_div button{
+	width:130px;
+	height:35px;
+	margin-top:20px;
+	border-radius:50px;
+	border:1px solid white;
+	font-size:20px;
+	background-color:transparent;
+	color:white;
+}
+
+@media(max-width:660px){
+	
+	.section2_main_div{
+		background-size:400% 100%;
+		background-position:-725px 0px;
+    }
+}
+
+/*part3*/
+
+.Section3{
+	width:100%;
+	height:1200px;
+	float:left;
+}
+
+.section3_area{
+	width:100%;
+	height:100%;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	font-family:sans-serif;
+}
+
+.single_area1{
+	width:47.75%;
+	height:47.75%;
+	float:left;
+	background-image:url('images/Dji img 4.jpg');
+	background-size:100% 100%;
+	margin-top:1.5%;
+	margin-left:1.5%;
+}
+
+.single_area1 p{
+	margin-top:40px;
+	color:gray;
+}
+
+.single_area1 h1{
+	margin-top:10px;
+	font-size:45px;
+}
+
+.single_area1 h3{
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.single_area1 button{
+	margin-top:10px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+.single_area2{
+	width:47.75%;
+	height:47.75%;
+	float:left;
+	background-image:url('images/Dji img 5.jpg');
+	background-size:100% 100%;
+	margin-top:1.5%;
+	margin-left:1.5%;
+}
+
+.single_area2 p{
+	margin-top:40px;
+	color:gray;
+}
+
+.single_area2 h1{
+	margin-top:10px;
+	font-size:45px;
+}
+
+.single_area2 h1 span{
+	font-weight:normal;
+}
+
+.single_area2 h3{
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.single_area2 button{
+	margin-top:10px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+.single_area3{
+	width:47.75%;
+	height:47.75%;
+	float:left;
+	background-image:url('images/Dji img 6.jpg');
+	background-size:100% 100%;
+	margin-top:1.5%;
+	margin-left:1.5%;
+}
+
+.single_area3 p{
+	margin-top:40px;
+	color:gray;
+}
+
+.single_area3 h1{
+	margin-top:10px;
+	font-size:45px;
+}
+
+.single_area3 h1 span{
+	font-weight:normal;
+}
+
+.single_area3 h3{
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.single_area3 button{
+	margin-top:10px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+.single_area4{
+	width:47.75%;
+	height:47.75%;
+	float:left;
+	background-image:url('images/Dji img 7.jpg');
+	background-size:100% 100%;
+	margin-top:1.5%;
+	margin-left:1.5%;
+}
+
+.single_area4 p{
+	margin-top:40px;
+	color:gray;
+}
+
+.single_area4 h1{
+	margin-top:10px;
+	font-size:45px;
+}
+
+.single_area4 h3{
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.single_area4 button{
+	margin-top:10px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+
+@media(max-width:660px){
+
+	.Section3{
+		height:auto;
+	}
+
+	.section3_area{
+		height:auto;
+	}
+	
+	.single_area1{
+		width:94%;
+		height:500px;
+		margin-left:3%;
+		margin-top:15px;
+	}
+
+	.single_area2{
+		width:94%;
+		height:500px;
+		margin-left:3%;
+		margin-top:15px;
+	}
+
+	.single_area3{
+		width:94%;
+		height:500px;
+		margin-left:3%;
+		margin-top:15px;
+	}
+
+	.single_area4{
+		width:94%;
+		height:500px;
+		margin-left:3%;
+		margin-top:15px;
+	}
+}
+
+
+
+
+
+/*part4*/
+
+.Section4{
+	width:100%;
+	height:250px;
+	float:left;
+	margin-top:5px;
+	text-align:center;
+	font-family:sans-serif;
+}
+
+.Section4 h1{
+	font-size:40px;
+	margin-top:30px;
+}
+
+.Section4 p{
+	font-size:25px;
+	margin-top:20px;
+	color:gray;
+}
+
+
+@media(max-width:660px){
+
+	.Section4{
+		margin-top:15px;
+	}
+
+	.Section4 h1{
+		font-size:30px;
+		margin-top:30px;
+	}
+
+	.Section4 p{
+		text-align:center;
+		font-size:22px;
+	}	
+}
+
+
+/*part5*/
+
+.section5{
+	width:100% ;
+	height:500px;
+	float:left;
+}
+
+.section5_div_area{
+	width:90%;
+	height:100%;
+	float:left;
+	margin-left:5%;
+}
+
+.section5_single_area1{
+	width:49.25%;
+	height:100%;
+	float:left;
+	margin-right:0.75%;
+	background-image:url('Images/Dji img 8.jpg');
+	background-size:100% 100%;
+	text-align:center;
+	font-family:sans-serif;
+}
+
+.section5_single_area1 p{
+	margin-top:35px;
+	font-size:25px;
+	color:gray;
+}
+
+.section5_single_area1 h1{
+	margin-top:10px;
+	font-size:40px;
+}
+
+.section5_single_area1 button{
+	margin-top:10px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+.section5_single_area2{
+	width:49.25%;
+	height:100%;
+	float:left;
+	margin-left:0.75%;
+	background-image:url('Images/Dji img 9.jpg');
+	background-size:100% 100%;
+	text-align:center;
+	font-family:sans-serif;
+}
+
+.section5_single_area2 p{
+	margin-top:35px;
+	font-size:25px;
+	color:gray;
+}
+
+.section5_single_area2 h1{
+	margin-top:10px;
+	font-size:40px;
+}
+
+.section5_single_area2 button{
+	margin-top:10px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+@media(max-width:660px){
+	.section5{
+		height:auto;
+	}
+
+	.section5_div_area{
+		height:auto;
+	}
+
+	.section5_single_area1{
+		width:100%;
+		height:500px;
+	}
+
+	.section5_single_area2{
+		width:100%;
+		height:500px;
+		margin-left:0%;
+		margin-top:15px;
+	}
+
+
+}
+
+/*part6*/
+
+.Section6{
+	width:100%;
+	height:700px;
+	float:left;
+}
+
+
+.Section6_div{
+	width:90%;
+	height:100%;
+	float:left;
+	margin-left:5%;
+}
+
+.Section6_caption{
+	width:100%;
+	height:20%;
+	float:left;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:30px;
+}
+
+.Section6_caption h1{
+	margin-top:3.5%;
+}
+
+.Section6_phpto_area{
+	width:100%;
+	height:80%;
+	float:left;
+	margin-left:3%;
+}
+
+.Section6_Single_phpto_area1{
+	width:30.25%;
+	height:100%;
+	float:left;
+	margin-right:0.75%;
+	background-image:url('Images/Dji img 10.jpg');
+	background-size:100% 100%;
+	text-align:center;
+	font-family:sans-serif;
+	color:white;
+}
+
+.Section6_Single_phpto_area1 h2{
+	margin-top:35px;
+	font-size:35px;
+}
+
+.Section6_Single_phpto_area1 p{
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+.Section6_Single_phpto_area1 button{
+	margin-top:15px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+.Section6_Single_phpto_area2{
+	width:29.50%;
+	height:100%;
+	float:left;
+	margin-left:0.75%;
+	margin-right:0.75%;
+	background-image:url('Images/Dji img 11.jpg');
+	background-size:100% 100%;
+	text-align:center;
+	font-family:sans-serif;
+	color:white;
+}
+
+.Section6_Single_phpto_area2 h2{
+	margin-top:35px;
+	font-size:35px;
+}
+
+.Section6_Single_phpto_area2 p{
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+.Section6_Single_phpto_area2 button{
+	margin-top:15px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+.Section6_Single_phpto_area3{
+	width:30.75%;
+	height:100%;
+	float:left;
+	margin-left:0.75%;
+	background-image:url('Images/Dji img 12.jpg');
+	background-size:100% 100%;
+	text-align:center;
+	font-family:sans-serif;
+	color:white;
+}
+
+.Section6_Single_phpto_area3 h2{
+	margin-top:35px;
+	font-size:35px;
+}
+
+.Section6_Single_phpto_area3 p{
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+.Section6_Single_phpto_area3 button{
+	margin-top:15px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+	background-color:ghostwhite;
+}
+
+@media(max-width:660px){
+	.Section6{
+		height:auto;
+	}
+
+	.Section6_div{
+		height:auto;
+	}
+
+	.Section6_caption{
+		height:100px;
+		font-size:20px;
+	}
+
+	.Section6_Single_phpto_area1{
+		height:500px;
+		width:95%;
+		margin-left:0%;
+	}
+
+	.Section6_Single_phpto_area2{
+		height:500px;
+		width:95%;
+		margin-left:0%;
+		margin-top:15px;
+	}
+
+	.Section6_Single_phpto_area3{
+		height:500px;
+		width:95%;
+		margin-left:0%;
+		margin-top:15px;
+	}
+}
+
+/*part7*/
+
+.section7{
+	width:100%;
+	height:250px;
+	float: left;
+	background-color:ghostwhite;
+	margin-top:15px;
+}
+
+.section7_div{
+	width:90%;
+	height:100%;
+	float:left;
+	margin-left:5%;
+	text-align:center;
+}
+
+.section7_single_area{
+	width:33.33%;
+	height:100%;
+	float:left;
+	margin-left:;
+}
+
+
+.section7_single_area img{
+	margin-top:35px;
+}
+
+.section7_single_area h1{
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+.section7_single_area button{
+	margin-top:15px;
+	width:100px;
+	height:40px;
+	font-size:18px;
+	border-radius:50px;
+	border:none;
+}
+
+
+
+/*footer*/
+
+.footer_section{
+	width:100%;
+	height:540px;
+	float:left;
+	background-color:#272727;
+}
+
+.single_area{
+	width:20%;
+	height:400px;
+	float:left;
+}
+
+.single_area ul{
+	list-style-type:none;
+}
+
+.single_area ul li{
+	margin-left:30px;
+	margin-top:10px;
+	color:ghostwhite;
+	font-family:sans-serif;
+	font-size:15px;
+}
+
+.single_area ul li input{
+	width:80%;
+	height:25px;
+	float:left;
+	background-color:transparent;
+	border:1px solid gray;
+	font-size:15px;
+	border-radius:5px;
+}
+
+
+
+
+.bottom_menu{
+	width:100%;
+	height:70px;
+	float:left;
+	border-bottom:1px solid gray;
+	box-sizing:border-box;
+	color:ghostwhite;
+}
+
+.bottom_logo_area{
+	width:10%;
+	height:70px;
+	float:left;
+	text-align:center;
+}
+
+.bottom_logo_area img{
+	margin-top:20px;
+	margin-left:50px;
+}
+
+.bottom_menu_element{
+	width:70%;
+	height:70px;
+	float:left;
+}
+
+.bottom_menu_element ul{
+	list-style-type:none;
+}
+
+.bottom_menu_element ul li{
+	display:inline-block;
+	margin-top:23px;
+	margin-left:20px;
+	font-size:18px;
+	color:white;
+}
+
+.bottom_menu_icon{
+	width:20%;
+	height:70px;
+	float:left;
+}
+
+.bottom_menu_icon ul{
+	list-style-type:none;
+	display:inline-block;
+	font-size:20px;
+	margin-left:20px;
+	margin-top:17px;
+}
+
+	
+.bottom_menu_icon ul i{
+	margin-left:20px;
+	color:white;
+}
+
+
+
+.copyright_section{
+	width:100%;
+	height:70px;
+	float:left;
+	text-align:center;
+	color:ghostwhite;
+}
+
+.copyright_section ul li{
+	margin-top:10px;
+	display:inline-block;
+	font-size:18px;
+}
+
+.copyright_section ul p{
+	font-size:18px;
+	margin-top:10px;
+}
+
+@media(max-width:660px){
+
+	.footer_section{
+		height:auto;
+	}
+
+	.single_area{
+		height:auto;
+		width:50%;
+	}
+
+	.bottom_menu{
+		height:auto;
+		display:none;
+	}
+
+	.copyright_section{
+		height:auto;
+		margin-top:20px;
+	}
+}
